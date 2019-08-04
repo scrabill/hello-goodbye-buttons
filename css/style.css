@@ -1,0 +1,25 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-sans-serif;
+  font-size: 16px;
+}
+
+button, div {
+  font-size: 14px;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+button {
+  background: red;
+  border: none;
+  color: #ffffff;
+  height: 40px;
+}
+
+div {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 0 12px 0;
+}
