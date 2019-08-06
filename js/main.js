@@ -1,7 +1,7 @@
 // Set constants for later user
 
-const row = document.getElementById("row");
-const allButtons = document.querySelectorAll("button");
+var row = document.getElementById("row");
+var allButtons = document.querySelectorAll("button");
 
 // Get all button elements, spread them into an array, then add an addEventListener to each button item from the array
 
@@ -9,12 +9,12 @@ const allButtons = document.querySelectorAll("button");
     item.addEventListener("click", createRows)
   });
 
-// Functio to create a new row when either button is clicked
+// Function to create a new row when either button is clicked
 
 function createRows() {
 
-  let id = event.target.id;
-  const div = document.createElement("div");
+  var id = event.target.id;
+  var div = document.createElement("div");
 
   row.append(div);
 
